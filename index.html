@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Root Vision</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOT VISION | The Watcher</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Three.js Import Map -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
 </head>
 <body>
-<h1>ROOT VISION</h1>
-<p>Cybersecurity</p>
+    <!-- Deep Background Typography -->
+    <div class="monument-text" id="bg-text">ROOT VISION</div>
+
+    <!-- WebGL Canvas Container -->
+    <div id="canvas-container"></div>
+
+    <!-- Cinematic Vignette Overlay -->
+    <div class="vignette"></div>
+
+    <!-- Main Logic -->
+    <script type="module" src="script.js"></script>
 </body>
 </html>
